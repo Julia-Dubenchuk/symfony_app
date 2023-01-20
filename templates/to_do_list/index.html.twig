@@ -6,7 +6,10 @@
       My To Do List
     </h2>
     <form method="POST" action="{{ path('create_task') }}">
-      <input type="text" id="myInput" placeholder="Task title..." />
+      <input name="title"
+        type="text"
+        id="myInput"
+        placeholder="Task title..." />
       <button type="submit" class="addBtn">Add a task</button>
     </form>
   </div>
